@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- BS CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Movies App</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container py-2">
+        <a class="navbar-brand d-flex gap-3 align-items-center mx-0" href="#">
+          <i class="fa-solid fa-film text-danger"></i>
+          <h2 class="fs-5 mb-0 fw-bold text-white">Movies</h2>
+        </a>
+        <button
+          class="navbar-toggler border-0 text-white px-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="transition: 0s">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto mb-2 mb-lg-0 flex-column flex-md-row align-items-center">
+            <!-- Notice that text-blue is custom color  -->
+            <li class="nav-item mx-4">
+              <a
+                class="nav-link px-0 text-blue fs-5 active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-0 text-blue fs-5" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-0 text-blue fs-5" href="#soon">Coming Soon</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-0 text-blue fs-5" href="#news">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn btn-lg btn-danger fs-6" type="button">Signin</button>
+      </div>
+    </nav>
+    <section
+      id="home"
+      class="w-100 hero d-flex align-items-start justify-content-center px-10 flex-column"
+      style="height: 100vh">
+      <h3 class="fs-4">Marvel Universe</h3>
+      <h1
+        class="display-5 text-white fw-bold"
+        style="max-width: 500px; line-height: 1.4">
+        Spider-Man Far From Home
+      </h1>
+      <button class="btn btn-danger">Book Now</button>
+    </section>
+    <section class="movies" id="movies">
+      <div class="container-fluid container-sm p-5 p-xl-10">
+        <div class="row gap-xl-1 justify-content-xl-between">
+          <div class="col-12">
+            <h2 class="movies-heading fs-5 text-uppercase text-white mb-4">
+              Opening this Week
+            </h2>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-1"></div>
+              <h3 class="fs-6 my-1">Venom</h3>
+              <p class="text-white" style="font-size: 14px">120min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-2"></div>
+              <h3 class="fs-6 my-1">Dunkerk</h3>
+              <p class="text-white" style="font-size: 14px">
+                105min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-3"></div>
+              <h3 class="fs-6 my-1">Batman & Superman</h3>
+              <p class="text-white" style="font-size: 14px">
+                100min | Thriller
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-4"></div>
+              <h3 class="fs-6 my-1">John Wick</h3>
+              <p class="text-white" style="font-size: 14px">
+                120min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-5"></div>
+              <h3 class="fs-6 my-1">Aquaman</h3>
+              <p class="text-white" style="font-size: 14px">130min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-6"></div>
+              <h3 class="fs-6 my-1">Black Panther</h3>
+              <p class="text-white" style="font-size: 14px">90min | Thriller</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-7"></div>
+              <h3 class="fs-6 my-1">Thor</h3>
+              <p class="text-white" style="font-size: 14px">130min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-8"></div>
+              <h3 class="fs-6 my-1">Bumblebee</h3>
+              <p class="text-white" style="font-size: 14px">
+                100min | Thriller
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-9"></div>
+              <h3 class="fs-6 my-1">Mortal Engines</h3>
+              <p class="text-white" style="font-size: 14px">100min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-10"></div>
+              <h3 class="fs-6 my-1">UnderWorld Blood Wars</h3>
+              <p class="text-white" style="font-size: 14px">100min | Action</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="movies" id="soon">
+      <div class="container-fluid container-sm p-5 p-xl-10">
+        <div class="row gap-xl-1 justify-content-xl-between">
+          <div class="col-12">
+            <h2 class="movies-heading fs-5 text-uppercase text-white mb-4">
+              Coming Soon
+            </h2>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-11"></div>
+              <h3 class="fs-6 my-1">Joney English</h3>
+              <p class="text-white" style="font-size: 14px">80min | Comedy</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-12"></div>
+              <h3 class="fs-6 my-1">WarCrafet</h3>
+              <p class="text-white" style="font-size: 14px">120min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-13"></div>
+              <h3 class="fs-6 my-1">Rampage</h3>
+              <p class="text-white" style="font-size: 14px">
+                108min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-14"></div>
+              <h3 class="fs-6 my-1">Airon Lady</h3>
+              <p class="text-white" style="font-size: 14px">120min | Comedy</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-15"></div>
+              <h3 class="fs-6 my-1">Justice League</h3>
+              <p class="text-white" style="font-size: 14px">
+                120min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-16"></div>
+              <h3 class="fs-6 my-1">Doctor Strange</h3>
+              <p class="text-white" style="font-size: 14px">
+                120min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-17"></div>
+              <h3 class="fs-6 my-1">Captain Marvel</h3>
+              <p class="text-white" style="font-size: 14px">
+                120min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-18"></div>
+              <h3 class="fs-6 my-1">Black Widow</h3>
+              <p class="text-white" style="font-size: 14px">90min | Action</p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-19"></div>
+              <h3 class="fs-6 my-1">Ant Man</h3>
+              <p class="text-white" style="font-size: 14px">
+                110min | Adventure
+              </p>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div class="inner">
+              <div class="movies-img img-20"></div>
+              <h3 class="fs-6 my-1">Guardiance Of Galaxy</h3>
+              <p class="text-white" style="font-size: 14px">
+                120min | Adventure
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 mx-auto justify-content-center text-center">
+            <h2 class="text-white mx-auto fs-4 mb-3" style="max-width: 300px">
+              Subscribe To Get Newsletter
+            </h2>
+            <div class="input-field position-relative" style="height: 48px">
+              <input
+                class="form-control h-100"
+                type="email"
+                name="email"
+                placeholder="Enter Your Email" />
+              <button
+                class="btn btn-danger position-absolute top-50 end-0 mx-2"
+                style="transform: translateY(-50%)">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-12 justify-content-between d-flex align-items-center"
+            style="min-height: 100px">
+            <div class="col-5">
+              <a href="#" class="text-white text-decoration-none fw-bold fs-4"
+                ><i class="fa-solid fa-film text-danger"></i>
+                Movies
+              </a>
+            </div>
+            <div class="col-3 d-flex gap-3">
+              <a
+                href="#"
+                class="text-decoration-none d-flex contact-ico justify-content-center rounded-pill align-items-center"
+                style="height: 40px; width: 40px"
+                ><i class="fa-brands fa-facebook-f fs-3"></i
+              ></a>
+              <a
+                href="#"
+                class="text-decoration-none d-flex contact-ico justify-content-center rounded-pill align-items-center"
+                style="height: 40px; width: 40px"
+                ><i class="fa-brands fa-instagram fs-3"></i
+              ></a>
+              <a
+                href="#"
+                class="text-decoration-none d-flex contact-ico justify-content-center rounded-pill align-items-center"
+                style="height: 40px; width: 40px"
+                ><i class="fa-brands fa-x-twitter fs-3"></i
+              ></a>
+              <a
+                href="#"
+                class="text-decoration-none d-flex contact-ico justify-content-center rounded-pill align-items-center"
+                style="height: 40px; width: 40px"
+                ><i class="fa-brands fa-tiktok fs-3"></i
+              ></a>
+            </div>
+          </div>
+          <div class="co-12">
+            <h2 class="text-center text-white fs-5">© <span class="text-danger">Web Masters</span> All Right Reserved.</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BS JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

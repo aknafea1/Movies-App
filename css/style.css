@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #00171f;
+}
+*::before,
+*::after {
+  transition: 0.5s;
+}
+img {
+  width: 100%;
+}
+body {
+  background-color: #00171f;
+}
+.text-blue {
+  color: #bee3fd;
+}
+.btn-danger {
+  background-color: #dd4052 !important;
+}
+.px-10 {
+  padding-inline: 96px;
+}
+.text-danger {
+  color: #fa455b !important;
+}
+.hero {
+  background-image: url(../images/home3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #bee3fd;
+  top: 100%;
+  left: 0;
+}
+.nav-link.active::before,
+.nav-link:hover::before {
+  width: 100%;
+}
+.navbar {
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav-link::before {
+    background-color: transparent;
+  }
+  .navbar-nav {
+    background-color: #fff;
+    width: 100vw;
+    padding: 36px;
+    border-radius: 16px;
+    * {
+      color: #000 !important;
+      transform: 0.5s;
+      position: relative;
+    }
+    *::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 100%;
+      height: 0px;
+      width: 100%;
+      background-color: #6c7f8d;
+    }
+    *:hover {
+      color: #6c7f8d !important;
+      border-color: #6c7f8d;
+    }
+    *:hover::before {
+      height: 2px;
+    }
+  }
+  .px-10 {
+    padding-inline: 40px;
+  }
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.1;
+}
+.hero * {
+  position: relative;
+  z-index: 5;
+}
+.movies {
+  min-height: 100vh;
+  display: grid;
+}
+.movies .container {
+  height: 80vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.movies-heading {
+  color: #bee3fd;
+  position: relative;
+}.movies-heading::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #bee3fd;
+  top: calc(100% + 10px);
+  left: 0;
+}
+.movies .inner h3 {
+  color: #bee3fd;
+}
+.movies .movies-img {
+  min-height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.movies .movies-img:hover {
+  transform: translateY(-10px);
+}
+.movies .movies-img.img-1 {
+  background-image: url(../images/m1.jpg);
+}
+.movies .movies-img.img-2 {
+  background-image: url(../images/m2.jpg);
+}
+.movies .movies-img.img-3 {
+  background-image: url(../images/m3.jpg);
+}
+.movies .movies-img.img-4 {
+  background-image: url(../images/m4.jpg);
+}
+.movies .movies-img.img-5 {
+  background-image: url(../images/m5.jpg);
+}
+.movies .movies-img.img-6 {
+  background-image: url(../images/m6.jpg);
+}
+.movies .movies-img.img-7 {
+  background-image: url(../images/m7.jpg);
+}
+.movies .movies-img.img-8 {
+  background-image: url(../images/m8.png);
+}
+.movies .movies-img.img-9 {
+  background-image: url(../images/m9.jpg);
+}
+.movies .movies-img.img-10 {
+  background-image: url(../images/m10.jpg);
+}
+.movies .movies-img.img-11 {
+  background-image: url(../images/coming1.jpg);
+}
+.movies .movies-img.img-12 {
+  background-image: url(../images/coming2.jpg);
+}
+.movies .movies-img.img-13 {
+  background-image: url(../images/coming3.jpg);
+}
+.movies .movies-img.img-14 {
+  background-image: url(../images/coming4.jpg);
+}
+.movies .movies-img.img-15 {
+  background-image: url(../images/coming5.jpg);
+}
+.movies .movies-img.img-16 {
+  background-image: url(../images/coming6.jpeg);
+}
+.movies .movies-img.img-17 {
+  background-image: url(../images/coming7.jpg);
+}
+.movies .movies-img.img-18 {
+  background-image: url(../images/coming8.jpg);
+}
+.movies .movies-img.img-19 {
+  background-image: url(../images/coming9.jpg);
+}
+.movies .movies-img.img-20 {
+  background-image: url(../images/coming10.jpg);
+}
+.contact-ico {
+  transition: 0.4s;
+  position: relative;
+  outline: 2px solid #e9e9e9;
+}
+.contact-ico i {
+  color: #f88996;
+}
+
+.contact-ico:hover {
+  background-color: #dd4052 !important;
+    outline: 2px solid #f88996;
+
+}
+.contact-ico:hover i {
+  color: #fff;
+}
